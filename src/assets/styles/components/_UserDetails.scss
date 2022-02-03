@@ -1,0 +1,85 @@
+.user-deatilss {
+    background-color: #ccdddd;
+    ;
+    color: black;
+    width: 50%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 20%;
+    border: 2px solid;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 1px 5px 0 #bbc4d1, inset 0 5px 0 #ffffff;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    text-align: left;
+    img {
+        width: 150px;
+        border-radius: 50%;
+    }
+    .close-btn {
+        border: none;
+        background: none;
+        position: absolute;
+        top: 2%;
+        left: 3%;
+    }
+    .user-fields {
+        padding: 11px;
+    }
+    .m-t-7 {
+        margin-top: 7px;
+    }
+    .email-input {
+        width: 80%;
+    }
+    input {
+        font-family: cursive;
+        color: black;
+    }
+    .btn-save {
+        background-color: purple;
+        color: black;
+        width: 100px;
+        border: none;
+        height: 35px;
+        cursor: pointer;
+        font-family: cursive;
+        margin: 10px auto;
+        border-radius: 2px;
+    }
+    .msg {
+        color: red;
+    }
+}
+
+.user-details {
+    p {
+        color: black;
+    }
+}
+
+@media (max-width: 715px) {
+    .user-deatilss {
+        width: 80%;
+        img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        div {
+            max-height: 30px;
+        }
+    }
+    .user-details {
+        flex-direction: column;
+    }
+    html {
+        line-height: 1em;
+    }
+}

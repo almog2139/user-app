@@ -1,0 +1,27 @@
+.btn-disable {
+    pointer-events: none;
+    cursor: no-drop;
+}
+
+.simple-btn {
+    padding: 5px 10px;
+    transition: 0.3s all;
+    background-color: white;
+    border: 1px solid $light-blue;
+    &:hover {
+        background-color: $light-blue;
+    }
+    border-radius: 3px;
+}
+
+.add-btn {
+    height: 36px;
+    padding: 8px;
+    margin: 8px 0;
+    width: 110px;
+    background-color: purple;
+    border: none;
+    a:link {
+        color: white;
+    }
+}

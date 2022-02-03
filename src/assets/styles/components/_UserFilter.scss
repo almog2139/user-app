@@ -1,0 +1,28 @@
+.user-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+        padding: 8px;
+        margin-right: 5px;
+        box-sizing: border-box;
+    }
+}
+
+.filter {
+    margin-top: 8px;
+}
+
+@media (max-width: 850px) {
+    .user-filter {
+        flex-direction: column;
+        input {
+            margin-top: 5px;
+            margin-right: none;
+            width: 80vw;
+        }
+    }
+    .filter {
+        flex-direction: column;
+    }
+}
